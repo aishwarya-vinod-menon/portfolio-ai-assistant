@@ -1,0 +1,186 @@
+PORTFOLIO PROJECTS FOR AISHWARYA MENON
+
+This information is extracted from Aishwarya's portfolio website.
+
+export const portfolioData = {
+  personal: {
+    name: "Aishwarya Menon",
+    title: "Software Development Engineer",
+    tagline: "Full Stack Developer | Data Engineer | Problem Solver",
+    email: "aishwaryamenon.v@gmail.com",
+    phone: "+1 (214)-836-5055",
+    location: "Dallas, TX",
+    github: "https://github.com/aishwarya-vinod-menon",
+    linkedin: "https://www.linkedin.com/in/aishwarya-v-menon/",
+    resume: "/resume.pdf",
+    about: "Building scalable systems, intelligent data pipelines, and modern web applications."
+  },
+
+  skills: {
+    languages: ["JavaScript", "Python", "Java", "TypeScript", "C++", "SQL"],
+    frontend: ["React", "Next.js", "Redux", "Tailwind CSS", "HTML5", "CSS3"],
+    backend: ["Node.js", "Express", "FastAPI", "MongoDB", "PostgreSQL", "REST APIs"],
+    dataEngineering: ["Apache Spark", "Kafka", "Airflow", "ETL Pipelines", "Data Warehousing"],
+    aiMl: ["TensorFlow", "PyTorch", "scikit-learn", "NLP", "Computer Vision"],
+    tools: ["Git", "Docker", "AWS", "Jenkins", "Postman", "VS Code"],
+    concepts: ["Data Structures", "Algorithms", "System Design", "OOP", "Microservices"]
+  },
+
+  projects: [
+    {
+      id: 1,
+      title: "SkiHub",
+      category: "Data Engineering",
+      description: "A focused search platform for all things skiing—resorts, gear, tips, and news. Fast, relevant results in a clean, user-friendly interface.",
+      techStack: ["Python", "Apache Nutch", "Apache Solr", "HTML", "CSS", "JavaScript"],
+      features: [
+        "Web crawling with Apache Nutch",
+        "Indexing with Apache Solr",
+        "Python backend integration",
+        "Clean, user-friendly interface"
+      ],
+      github: "https://github.com/aishwarya-vinod-menon/Information-Retrieval-Search-Engine.git",
+      demo: "",
+      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop"
+    },
+    {
+      id: 2,
+      title: "Social Media Dashboard",
+      category: "MERN Stack",
+      description: "Real-time social media analytics dashboard with user engagement tracking, post scheduling, and interactive data visualizations using Chart.js.",
+      techStack: ["React", "Node.js", "MongoDB", "Socket.io", "Chart.js", "Express"],
+      features: [
+        "Real-time data updates with WebSockets",
+        "Interactive charts and analytics",
+        "Multi-platform integration",
+        "Automated report generation"
+      ],
+      github: "https://github.com/yourusername/social-dashboard",
+      demo: "https://social-dashboard-demo.com",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop"
+    },
+    {
+      id: 3,
+      title: "Task Management System",
+      category: "MERN Stack",
+      description: "Collaborative task management application with team features, drag-and-drop interface, real-time updates, and notification system.",
+      techStack: ["React", "Node.js", "Express", "MongoDB", "Redux Toolkit", "Material-UI"],
+      features: [
+        "Drag-and-drop task boards",
+        "Team collaboration features",
+        "Real-time notifications",
+        "Advanced filtering and search"
+      ],
+      github: "https://github.com/yourusername/task-manager",
+      demo: "https://taskmanager-demo.com",
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop"
+    },
+    {
+      id: 4,
+      title: "Real-Time Data Pipeline",
+      category: "Data Engineering",
+      description: "Scalable ETL pipeline processing millions of records daily using Apache Spark and Kafka. Automated data quality checks and monitoring dashboard.",
+      techStack: ["Python", "Apache Spark", "Kafka", "Airflow", "PostgreSQL", "Docker"],
+      features: [
+        "Real-time stream processing",
+        "Automated data quality validation",
+        "Scalable architecture handling 10M+ records/day",
+        "Monitoring and alerting system"
+      ],
+      github: "https://github.com/yourusername/data-pipeline",
+      demo: null,
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=500&fit=crop"
+    },
+    {
+      id: 5,
+      title: "AI-Powered Sentiment Analyzer",
+      category: "AI/ML",
+      description: "Machine learning model for sentiment analysis of product reviews using NLP techniques. Achieved 92% accuracy with BERT-based architecture.",
+      techStack: ["Python", "TensorFlow", "BERT", "FastAPI", "Docker", "React"],
+      features: [
+        "BERT-based sentiment classification",
+        "Real-time analysis API",
+        "Interactive web interface",
+        "Model performance monitoring"
+      ],
+      github: "https://github.com/yourusername/sentiment-analyzer",
+      demo: "https://sentiment-demo.com",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop"
+    }
+  ],
+
+  experience: [
+    {
+      id: 1,
+      title: "Associate Data Engineer",
+      company: "Indrasol",
+      location: "Remote",
+      period: "January 2025 - November 2025",
+      type: "Full-Time",
+      description: [
+        "Designed and maintained data pipelines in Databricks using PySpark and SQL to process and transform enterprise data for analytics and reporting",
+        "Built Delta Lake architectures and optimized ETL processes in Azure Data Lake, improving query performance by 25%",
+        "Collaborated with analysts and product teams to define data models supporting Power BI dashboards and internal applications",
+        "Developed data validation scripts to enhance quality and consistency across multiple data sources",
+        "Supported version control and deployment automation using Git and Azure DevOps for reliable delivery of data solutions"
+
+      ]
+    },
+    {
+      id: 2,
+      title: "Data Engineer",
+      company: "Danala Analytics",
+      location: "Chennai, India",
+      period: "May 2021 – June 2023",
+      type: "Full-Time",
+      description: [
+        "Developed and optimized data pipelines using PySpark, SQL, and Databricks, improving data delivery speed by 45%",
+        "Automated ETL/ELT workflows for large-scale healthcare data across Azure Data Lake, Snowflake, and Synapse, reducing load times by 60%",
+        "Designed dbt-based data models and built metadata-driven frameworks with alerting and CI/CD, enhancing reliability and cutting manual effort by 70%. Delivered Power BI and Tableau dashboards enabling real-time clinical and operational insights"
+      ]
+    }
+  ],
+
+  education: [
+    {
+      id: 1,
+      degree: "Bachelor of Science in Computer Science",
+      school: "University Name",
+      location: "City, State",
+      period: "2021 - 2025",
+      gpa: "3.8/4.0",
+      relevant: [
+        "Data Structures and Algorithms",
+        "Database Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Software Engineering",
+        "Machine Learning"
+      ]
+    }
+  ],
+
+  achievements: [
+    "Won 1st place in University Hackathon 2022",
+    "Contributed to 5+ open-source projects on GitHub",
+    "Solved 100+ problems on LeetCode (Top 5%)"
+  ],
+
+  certifications: [
+    {
+      id: 1,
+      name: "Databricks Certified Data Engineer - Associate",
+      issuer: "Databricks",
+      date: "2025",
+      link: "https://credentials.databricks.com/7a894dfe-5729-4219-b093-fc11c91c48ba#acc.hpcxUizr"
+    },
+    
+    // {
+    //   id: 3,
+    //   name: "Machine Learning Specialization",
+    //   issuer: "Coursera - Stanford University",
+    //   date: "2023",
+    //   credentialId: "COURSERA-XXX"
+    // }
+  ]
+};

@@ -1,0 +1,261 @@
+GITHUB REPOSITORIES FOR AISHWARYA MENON
+
+Repository: aishwarya-vinod-menon
+URL: https://github.com/aishwarya-vinod-menon/aishwarya-vinod-menon
+
+README:
+# Hi there 👋 I'm Aishwarya Vinod Menon
+
+Data enthusiast passionate about Data Science, Engineering, and AI 🤖.
+I build real-time pipelines, solve problems with code, and explore machine learning models.
+
+## 🚀 Tech Stack
+- Languages: Python, SQL, Java
+- Tools: PySpark, Kafka,Power BI, DBT, Azure DevOps, Github Actions
+- Interests: Recommendation Systems, MLOps, Real-time Data Processing
+
+## 📌 Projects
+- 🟡 NYC Taxi Data Pipeline (37M+ records, real-time Kafka + Spark)
+- 🔍 Hotel & Restaurant Recommendation Engine (KMeans + KNN)
+- 🧠 Semantic Role Labeling with BERT
+
+## 🌱 Currently Learning
+- Advanced PySpark & DAX
+- Vector databases + LangChain for LLM apps
+
+📫 Connect with me on [LinkedIn] www.linkedin.com/in/aishwarya-v-menon
+
+
+================================================================================
+
+Repository: Information-Retrieval-Search-Engine
+URL: https://github.com/aishwarya-vinod-menon/Information-Retrieval-Search-Engine
+Primary Language: Python
+
+README:
+
+# 🎿 Ski Search Engine
+
+Welcome to the Ski Search Engine repository! This project provides a lightweight search engine tailored to skiing-related content, combining web crawling, indexing, and a simple user interface.
+
+---
+
+## 📌 Overview
+
+The Ski Search Engine is designed to:
+- Crawl skiing-related websites
+- Index the content for fast retrieval
+- Provide a user-friendly interface to search and explore skiing information
+
+---
+
+## 🧰 Technologies Used
+
+| Tool | Purpose |
+|------|--------|
+| **Apache Nutch** | Web crawling and content fetching |
+| **Apache Solr** | Indexing and search functionality |
+| **Python** | Backend integration with Solr |
+| **HTML, CSS, JavaScript** | Frontend user interface |
+| **WSL (Windows Subsystem for Linux)** | Linux-based development environment on Windows |
+
+---
+
+## ⚙️ Setup Instructions (WSL-Based)
+
+This project was developed using **Windows Subsystem for Linux (WSL)** to run Apache Nutch and Apache Solr in a Linux-like environment on Windows.
+
+### 🐧 Prerequisites
+- Windows 10/11 with WSL enabled  
+- A Linux distribution installed via WSL (e.g., Ubuntu)  
+- Java (OpenJDK 8 or 11) installed in WSL  
+- Python installed in WSL  
+- Apache Nutch and Apache Solr installed inside WSL
+
+### 🔧 Setup Steps
+
+1. **Install Apache Nutch and Solr in WSL**
+   - Follow official install guides for each tool inside your WSL terminal
+   - Ensure Solr is running on a port accessible from your browser (e.g., `localhost:8983`)
+
+2. **Run the Nutch Crawler**
+   - Configure seed URLs and crawl depth
+   - Execute crawl commands from WSL
+
+3. **Index with Solr**
+   - Use Nutch’s indexing scripts to push data to Solr
+   - Confirm indexed content via Solr’s admin UI
+
+4. **Python Backend**
+   - Run Python scripts from WSL to query Solr
+   - Use Flask or another lightweight framework if needed
+
+5. **Frontend Access**
+   - Open the HTML interface in your browser (served via Python or directly as static files)
+   - Enter a search query and view results
+
+---
+
+## 📂 Projec
+
+================================================================================
+
+Repository: sql-data-warehouse-project
+URL: https://github.com/aishwarya-vinod-menon/sql-data-warehouse-project
+Description: Building a modern data warehouse with SQL server, including ETL processes, data modelling and analytics.
+Primary Language: TSQL
+
+README:
+
+# Data Warehouse and Analytics Project
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.
+
+---
+## 🏗️ Data Architecture
+
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+![Data Architecture](docs/data_warehouse.png)
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+---
+## 📖 Project Overview
+
+This project involves:
+
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+
+---
+
+## 🚀 Project Requirements
+
+### Building the Data Warehouse (Data Engineering)
+
+#### Objective
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+#### Specifications
+- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
+- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
+- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
+- **Scope**: Focus on the latest dataset only; historization of data is not required.
+- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+---
+
+### BI: A
+
+================================================================================
+
+Repository: NYC_Taxi_Pipeline
+URL: https://github.com/aishwarya-vinod-menon/NYC_Taxi_Pipeline
+Primary Language: Jupyter Notebook
+
+================================================================================
+
+Repository: Travel-Advisor
+URL: https://github.com/aishwarya-vinod-menon/Travel-Advisor
+Primary Language: Jupyter Notebook
+
+README:
+# Travel-Advisor
+
+Travel Advisor 
+
+1. Project Goal:
+  The goal of this project is to create a personalized travel plan consisting of detailed recommendations for the duration of a trip including places to stay, attractions and restaurants. This ensures that the user receives a tailor-made itinerary, recommending options for every meal, place to stay, and activities to explore throughout their trip.
+
+2. Importance and Target Audience:
+  The importance of this project lies in enhancing the travel experience by providing personalized recommendations. It helps in improving the decision-making process for travelers who are unfamiliar with a location. By providing personalized recommendations, it will help travelers save time and effort in finding places that align with their tastes and preferences. The primary customers would be new travelers, tourists, or anyone planning a trip who wants curated suggestions for hotels, restaurants, and attractions.
+
+3. Data Source:
+  We will be utilizing the Yelp dataset to gather comprehensive user details, restaurant information, and associated reviews. Additionally, we will be crawling TripAdvisor to collect data on hotels and attractions.
+  1. Yelp Dataset: User details, restaurant information, reviews
+  2. TripAdvisor: Hotel details, attraction information
+
+4. Algorithms Used for Analysis:
+  Three algorithms will be used for different aspects of the travel plan:
+  1. Collaborative Filtering will be used to recommend hotels using a Matrix Factorization method with Alternating Least Squares (ALS).
+  2. For attractions, we will use Restricted Boltzmann Machine (RBM) to suggest options based on what users like and past data.
+  3. A mixed approach combines Collaborative Filtering (with K-Nearest Neighbors) and Content-Based Filtering (using K-Means clustering) to recommend restaurants.
+
+5. Expected Learnings from the Project:
+  1. User Preference Analysis: This project will explore how to analyze user behavior and use past interactions 
+
+================================================================================
+
+Repository: Neo4j_Vs_MySQL-A_Comparative_Analysis
+URL: https://github.com/aishwarya-vinod-menon/Neo4j_Vs_MySQL-A_Comparative_Analysis
+Primary Language: Jupyter Notebook
+
+README:
+Neo4j vs Relational Database
+
+Description
+
+This project is a university research graph database designed to manage complex networks of academic research data.
+
+Installation 
+We have majorly used these three softwares in the course of our project. 
+	•	Neo4j Installation:
+           Download and install Neo4j from the official website. Follow the installation guide for your operating system. After installation, start the Neo4j server and open the Neo4j Browser to interact with the database.
+	•	MySQL Installation:  Install MySQL by downloading the appropriate installer from the MySQL Downloads page. Run the installer and follow the on-screen instructions to set up the server and create your root user.
+
+	•	Python 3.10.5 Installation:  Python 3.10.5 can be installed from the Python Downloads  
+After installation, follow these steps to ensure proper working. 
+For macOS:
+
+	•	Download the Installer: Go to the Python Downloads page and download the latest Python installer for macOS.
+
+	•	Run the Installer: Open the downloaded file (a package file with a .pkg extension).This will open the Python Installer; follow the prompts to install Python. You might need to enter your administrator password.
+
+	•	Verify the Installation: Open the Terminal app (you can find it in the Applications > Utilities folder or search for it using Spotlight). Type python3 --version and press Enter. You should see the Python version you installed displayed.
+
+	•	Add Python to PATH (if necessary): In most cases, the installer should automatically add Python to your PATH. If you find that the python3 command is not recognized, you may need to add Python to your PATH manually. This is less common with recent Python installers for macOS.
+
+	•	Install pip (if not included):
+
+	•	Modern Python versions come with pip installed. You can check by typing pip3 --version in the Terminal. If it's not installed, you can download get-pip.py from https://bootstrap.pypa.io/get-pip.py and run it with Python.
+
+For Windows:
+
+
+================================================================================
+
+Repository: multiverse-gallery
+URL: https://github.com/aishwarya-vinod-menon/multiverse-gallery
+Primary Language: HTML
+
+================================================================================
+
+Repository: Fake_News_Detector
+URL: https://github.com/aishwarya-vinod-menon/Fake_News_Detector
+Primary Language: Jupyter Notebook
+
+README:
+# Fake_News_Detector
+This project determines whether a piece of news is fake or not. Using sklearn, we build a TfidfVectorizer on our dataset. Then, we initialize a PassiveAggressive Classifier and fit the model. In the end, the accuracy score and the confusion matrix tell us how well our model fares.
+# Let us Begin
+
+##  What is tfidfVectorizer?
+TF (Term Frequency): The number of times a word appears in a document is its Term Frequency.
+
+
+IDF (Inverse Document Frequency): Words that occur many times a document, but also occur many times in many others, may be irrelevant. IDF is a measure of how significant a term is in the entire corpus.
+
+The TfidfVectorizer converts a collection of raw documents into a matrix of TF-IDF features.
+
+## Passive-Aggressive Classifier :
+
+Passive: If the prediction is correct, keep the model and do not make any changes. i.e., the data in the example is not enough to cause any changes in the model. 
+
+Aggressive: If the prediction is incorrect, make changes to the model. i.e., some change to the model may correct it.
+
+
+================================================================================
+
